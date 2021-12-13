@@ -1,0 +1,14 @@
+{
+  "name": "trello-power-up-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:patrickchanp/trello-power-up-demo.git",
+  "author": "pengfei <pengfei.qian@thoughtworks.com>",
+  "license": "MIT",
+  "scripts": {
+    "build":"parcel build src/html/*.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
