@@ -1,4 +1,4 @@
-const {getCardButton} = require("../card-button/CardButton");
+const {getCardButton} = require("../card-button/capability");
 console.log("hello world");
 
 const  CapabilityProps = {
