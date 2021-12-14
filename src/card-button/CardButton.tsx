@@ -7,7 +7,7 @@ export function getCardButton(_t: Trello.PowerUp.IFrame, props: CapabilityProps)
         text: 'trello-power-up-demo',
         callback: (tc: Trello.PowerUp.IFrame) => tc.popup({
             title: 'trello-power-up-demo',
-            url: './card-button.html',
+            url: 'https://google.com',
             height: 300
         })
         // callback: (tc: Trello.PowerUp.IFrame) => tc.modal({
