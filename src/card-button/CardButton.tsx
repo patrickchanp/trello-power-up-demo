@@ -12,7 +12,7 @@ export function getCardButton(_t: Trello.PowerUp.IFrame, props: CapabilityProps)
         // })
         callback: (tc: Trello.PowerUp.IFrame) => tc.modal({
             // the url to load for the iframe
-            url: 'http://google.com',
+            url: 'https://google.com',
             // optional arguments to be passed to the iframe as query parameters
             // access later with t.arg('text')
             args: { text: 'Hello' },
