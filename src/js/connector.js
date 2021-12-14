@@ -1,4 +1,15 @@
+const {Trello} = require("../../types/trello");
+const {getCardButton} = require("../card-button/CardButton");
 console.log("hello world");
+
+const  CapabilityProps = {
+    baseUrl: window.location.href.replace(/\/$/, ''),
+    icon: {
+        dark: '/static/icon-dark.png',
+        light: '/static/icon-light.png'
+    }
+}
+
 
 window.TrelloPowerUp.initialize({
     'card-badges': function (t, opts) {
@@ -10,5 +21,6 @@ window.TrelloPowerUp.initialize({
                 }];
             }
         );
-    }
+    },
+    'card-buttons':(t:Trello.PowerUp.IFrame)=>getCardButton(t,CapabilityProps),
 })
