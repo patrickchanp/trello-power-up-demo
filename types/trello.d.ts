@@ -306,7 +306,7 @@ export namespace Trello {
                 resizable?: boolean;
             }): PromiseLike<void>;
 
-            modal(options: { args: { text: string }; fullscreen: boolean; accentColor: string; callback: () => void; title: string; actions: ({ icon: string; alt: string; position: string; url: string } | { icon: string; alt: string; callback: (tr) => PromiseLike<void>; position: string } | { icon: string; alt: string; callback: () => void; position: string })[]; url: string; height: number }): PromiseLike<void>;
+            modal(options: { args: { text: string }; fullscreen: boolean; accentColor: string; callback: () => void; title: string; actions: ({ icon: string; alt: string; position: string; url: string } | { icon: string; alt: string; callback: (tr) => PromiseLike<void>; position: string } | { icon: string; alt: string; callback: () => void; position: string })[]; url: PromiseLike<string>; height: number }): PromiseLike<void>;
             updateModal(options: {
                 accentColor?: string | Colors;
                 actions?: HeaderAction[];
