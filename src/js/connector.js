@@ -1,4 +1,3 @@
-const {Trello} = require("../../types/trello");
 const {getCardButton} = require("../card-button/CardButton");
 console.log("hello world");
 
