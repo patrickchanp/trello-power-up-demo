@@ -16,7 +16,7 @@ export interface CardWithNotes extends Trello.PowerUp.Card {
 export interface CapabilityProps {
     baseUrl: string;
     icon: {
-        light: string;
-        dark: string;
+        light: 'https://cdn-icons-png.flaticon.com/128/1054/1054150.png';
+        dark: 'https://cdn-icons-png.flaticon.com/128/1054/1054150.png';
     }
 }
