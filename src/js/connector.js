@@ -6,7 +6,7 @@ window.TrelloPowerUp.initialize({
             function (card) {
                 console.log(card);
                 return [{
-                    text:card.id
+                    text:card.name
                 }];
             }
         );
