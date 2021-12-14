@@ -18,7 +18,8 @@ export function getCardButton(_t: Trello.PowerUp.IFrame, props: CapabilityProps)
             fullscreen: true,
             // height: ,
             url: "",
-            callback(): void {
+            callback(): any[] {
+                return [];
             }
 
         })
