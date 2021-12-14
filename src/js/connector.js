@@ -22,5 +22,5 @@ window.TrelloPowerUp.initialize({
             }
         );
     },
-    'card-buttons':(t:Trello.PowerUp.IFrame)=>getCardButton(t,CapabilityProps),
+    'card-buttons':(t)=>getCardButton(t,CapabilityProps),
 })
