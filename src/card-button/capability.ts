@@ -7,7 +7,7 @@ export function getCardButton(_t: Trello.PowerUp.IFrame, props: CapabilityProps)
         text: 'Add a Note',
         callback: (tc: Trello.PowerUp.IFrame) => tc.popup({
             title: 'Add a Note',
-            url: './card-button.html',
+            url: './model.html',
             height: 300
         })
     }];
